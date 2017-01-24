@@ -7,8 +7,8 @@
   "license": "MIT",
   "scripts": {
     "install": "",
-    "build": "yarn && webpack",
-    "start": "yarn && webpack-dev-server --inline --hot"
+    "build": "webpack",
+    "start": "webpack-dev-server --inline --hot"
   },
   "devDependencies": {
     "babel-core": "^6.18.2",

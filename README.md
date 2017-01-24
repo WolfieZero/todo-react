@@ -3,6 +3,17 @@
 A todo project built with React
 
 
+## Install
+
+Clone the project where you want it then run `yarn`/`npm i` and all the project
+modules will be installed along with production code for Bower components.
+
+
+## Running
+
+Run `yarn start` or `npm start` then open a browser at http://localhost:3000.
+
+
 ## License
 
 Copyright © Neil Sweeney neil@wolfiezero.com
