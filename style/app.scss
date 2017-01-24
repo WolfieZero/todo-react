@@ -1,0 +1,72 @@
+// =============================================================================
+// Styles
+// =============================================================================
+
+
+@charset 'UTF-8';
+
+@import '../node_modules/normalize-scss/sass/normalize';
+
+
+body {
+    font-size: 30px;
+}
+
+h1, li, input {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 200;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    font-size: 1em;
+    width: 100%;
+    border: 1px solid #DDD;
+    border-left: 0;
+    border-right: 0;
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin: 0;
+}
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+
+@media all and (min-width: 410px) {
+    .container {
+        width: 400px;
+    }
+}
+
+.delete {
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.todo-item {
+    position: relative;
+    margin: .5em 0;
+
+    &__delete {
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+    &__description {
+        margin-left: 1em;
+        display: inline-block;
+    }
+}

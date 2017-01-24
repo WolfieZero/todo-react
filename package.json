@@ -1,0 +1,33 @@
+{
+  "name": "todo-react",
+  "version": "1.0.0",
+  "description": "A todo project built with React",
+  "main": "index.js",
+  "author": "Neil Sweeney <neil@wofliezero.com>",
+  "license": "MIT",
+  "scripts": {
+    "install": "",
+    "build": "yarn && webpack",
+    "start": "yarn && webpack-dev-server --inline --hot"
+  },
+  "devDependencies": {
+    "babel-core": "^6.18.2",
+    "babel-loader": "^6.2.8",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.16.0",
+    "babel-register": "^6.18.0",
+    "css-loader": "^0.26.1",
+    "eslint-plugin-babel": "^4.0.0",
+    "eslint-plugin-react": "^6.9.0",
+    "node-sass": "^3.13.0",
+    "normalize-scss": "^6.0.0",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-hot-loader": "^1.3.1",
+    "sass-loader": "^4.0.2",
+    "style-loader": "^0.13.1",
+    "webpack": "^2.1.0-beta.25",
+    "webpack-dev-server": "^2.1.0-beta.12",
+    "webpack-hot-middleware": "^2.13.2"
+  }
+}
