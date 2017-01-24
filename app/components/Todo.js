@@ -54,7 +54,7 @@ class Todo extends React.Component {
 
         return (
             <div>
-                <h1>todoFive</h1>
+                <h1>Todo</h1>
                 <div>
                     <input
                         autoFocus
